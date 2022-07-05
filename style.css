@@ -157,4 +157,12 @@ body{
 }
 .last-part{
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.726);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.last-font{
+    font-family: 'Arima', cursive;
+    font-size: 30px;
+    padding-bottom: 2px;
 }
