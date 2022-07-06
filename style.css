@@ -113,6 +113,12 @@ body{
     display: flex;
     margin-bottom: 100px;
     margin-top: 50px;
+}
+.update-box{
+    text-align: center;
+    background-color: blanchedalmond;
+    width: 50%;
+    margin-left: 30%;
 
 }
 .help-education{
@@ -165,4 +171,8 @@ body{
     font-family: 'Arima', cursive;
     font-size: 30px;
     padding-bottom: 2px;
+}
+#sub{
+    margin-bottom: 50px;
+    background-color: rgb(216, 109, 130);
 }
