@@ -21,6 +21,7 @@ body{
 }
 #discribe{
     color: aliceblue;
+    text-shadow: 2px 2px 2px black;
 }
 
 .section_1{
@@ -133,7 +134,9 @@ body{
     text-align: center;
     background-color: blanchedalmond;
     width: 50%;
-    margin-left: 30%;
+    margin-left: 25%;
+    margin-top: 100px;
+    
 
 }
 .help-education{
@@ -188,8 +191,51 @@ body{
 #sub{
     border: none;
     margin-bottom: 50px;
-    padding: 4px 15px;
+    padding: 3px 15px;
     color: white;
     
     background-color: rgb(241, 36, 77);
+    margin-left: -5px;
+}
+.volunteer{
+    
+    background-image: url(./Who-we-are.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+#events{
+    color: indigo;
+}
+#edit-volunteer{
+    font-size: 40px;
+    color: yellow;
+    text-shadow: 7px 7px 7px rgba(5, 5, 5, 0.979);
+    margin-left: 150px;
+    
+} 
+.joining{
+    text-decoration: none;
+    background: darkgreen;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px rgb(141, 21, 21);
+    margin-left: 150px;
+
+}
+#edit-volunteer-2{
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(15, 15, 15);
+    margin-bottom: 50px;
+    color: orangered;
+    margin-left: 50px;
 }
