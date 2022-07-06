@@ -99,8 +99,17 @@ body{
     text-align: center;
     margin-top: 50px;
 }
+
+.input22Div{
+    text-align: center;
+}
+
 .input22{
     text-align: center;
+    border: none;
+    border-bottom: 1px solid rgb(161, 148, 148);
+    width: 50%;
+
 }
 #font{
     font-size: 35px;
@@ -111,9 +120,15 @@ body{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
-    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
 }
+
+.flexible-container div{
+    margin: 20px;
+    width: 20%;
+}
+
 .update-box{
     text-align: center;
     background-color: blanchedalmond;
@@ -123,8 +138,6 @@ body{
 }
 .help-education{
     width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
     padding-left: 2%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -137,8 +150,6 @@ body{
 }
 .help-family{
     width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
     padding-left: 2%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -150,8 +161,6 @@ body{
 }
 .help-food{
     width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
     padding-left: 2%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -163,7 +172,7 @@ body{
 }
 .last-part{
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: rgba(0, 0, 0, 0.911);
     padding-bottom: 20px;
     padding-top: 10px;
 }
@@ -171,8 +180,16 @@ body{
     font-family: 'Arima', cursive;
     font-size: 30px;
     padding-bottom: 2px;
+    color: rgb(14, 14, 197);
+}
+.last-part p{
+    color: white;
 }
 #sub{
+    border: none;
     margin-bottom: 50px;
-    background-color: rgb(216, 109, 130);
+    padding: 4px 15px;
+    color: white;
+    
+    background-color: rgb(241, 36, 77);
 }
